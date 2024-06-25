@@ -1,0 +1,14 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "dema-demo-db",
+      "Group": "Servers",
+      "Host": "dagster-postgres",
+      "Port": 5432,
+      "MaintenanceDB": "postgres",
+      "Username": "postgres",
+      "PassFile": "/pgpass",
+      "SSLMode": "prefer"
+    }
+  }
+}

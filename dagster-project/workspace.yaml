@@ -1,0 +1,5 @@
+load_from:
+#  - grpc_server:
+#    host: "code-server-hostname"
+#    port: 4000
+  - python_package: ecommerce_dema

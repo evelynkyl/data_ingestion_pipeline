@@ -1,0 +1,1 @@
+{"_invocation_id": "1aab8dd4-2f2e-4d35-801b-bb256b642828", "linked": {"0": {"name": "source.dema_dbt.postgres_replica.orders_data", "type": "source", "succ": [2]}, "1": {"name": "source.dema_dbt.postgres_replica.inventory_data", "type": "source", "succ": [2]}, "2": {"name": "model.dema_dbt.combined_data", "type": "model"}}}

@@ -1,0 +1,8 @@
+2024-06-24 22:35:34 +0000 - dagster - DEBUG - __ASSET_JOB_0 - 4b614a83-ca15-472d-aa83-4905dcf98309 - 541 - LOGS_CAPTURED - Started capturing logs in process (pid: 541).
+2024-06-24 22:35:34 +0000 - dagster - DEBUG - __ASSET_JOB_0 - 4b614a83-ca15-472d-aa83-4905dcf98309 - 541 - orders_data - STEP_START - Started execution of step "orders_data".
+2024-06-24 22:35:35 +0000 - dagster - DEBUG - __ASSET_JOB_0 - 4b614a83-ca15-472d-aa83-4905dcf98309 - 541 - orders_data - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2024-06-24 22:35:35 +0000 - dagster - DEBUG - __ASSET_JOB_0 - 4b614a83-ca15-472d-aa83-4905dcf98309 - 541 - orders_data - ASSET_MATERIALIZATION - Materialized value orders_data.
+2024-06-24 22:35:35 +0000 - dagster - DEBUG - __ASSET_JOB_0 - 4b614a83-ca15-472d-aa83-4905dcf98309 - 541 - orders_data - HANDLED_OUTPUT - Handled output "result" using IO manager "db_io_manager"
+2024-06-24 22:35:35 +0000 - dagster - DEBUG - __ASSET_JOB_0 - 4b614a83-ca15-472d-aa83-4905dcf98309 - 541 - orders_data - ASSET_CHECK_EVALUATION - ASSET_CHECK_EVALUATION for step orders_data
+2024-06-24 22:35:35 +0000 - dagster - DEBUG - __ASSET_JOB_0 - 4b614a83-ca15-472d-aa83-4905dcf98309 - 541 - orders_data - STEP_OUTPUT - Yielded output "orders_data_non_null" of type "Any". (Type check passed).
+2024-06-24 22:35:35 +0000 - dagster - DEBUG - __ASSET_JOB_0 - 4b614a83-ca15-472d-aa83-4905dcf98309 - 541 - orders_data - STEP_SUCCESS - Finished execution of step "orders_data" in 1.23s.

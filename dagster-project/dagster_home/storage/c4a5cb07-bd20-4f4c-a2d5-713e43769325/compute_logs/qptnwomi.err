@@ -1,0 +1,8 @@
+2024-06-24 22:28:06 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 700 - LOGS_CAPTURED - Started capturing logs in process (pid: 700).
+2024-06-24 22:28:06 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 700 - inventory_data - STEP_START - Started execution of step "inventory_data".
+2024-06-24 22:28:07 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 700 - inventory_data - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2024-06-24 22:28:07 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 700 - inventory_data - ASSET_MATERIALIZATION - Materialized value inventory_data.
+2024-06-24 22:28:07 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 700 - inventory_data - HANDLED_OUTPUT - Handled output "result" using IO manager "db_io_manager"
+2024-06-24 22:28:07 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 700 - inventory_data - ASSET_CHECK_EVALUATION - ASSET_CHECK_EVALUATION for step inventory_data
+2024-06-24 22:28:07 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 700 - inventory_data - STEP_OUTPUT - Yielded output "inventory_data_non_null" of type "Any". (Type check passed).
+2024-06-24 22:28:07 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 700 - inventory_data - STEP_SUCCESS - Finished execution of step "inventory_data" in 764ms.

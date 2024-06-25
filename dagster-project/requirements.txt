@@ -1,0 +1,12 @@
+dagster>=1.7.8
+dagster-graphql>=1.7.8
+dagster-webserver>=1.7.8
+dagster-dbt>=0.23.8
+dagster-postgres>=0.23.8
+dagster-docker>=0.23.8
+dbt-core==1.8.2
+dbt-postgres==1.8.2
+pandas==2.2.2
+python-dotenv==1.0.1
+
+

@@ -1,0 +1,65 @@
+services:
+  dagster-dagit:
+    image: evelynn1107/dema_data_project:latest
+    ports:
+      - 3000:3000
+    env_file:
+      - dagster.env
+    depends_on:
+      - dagster-postgres
+    command: dagster-webserver -h 0.0.0.0 -p 3000
+    volumes:
+      - ./dagster_home:/opt/dagster/dagster_home
+      - ./ecommerce_dema:/opt/dagster/app/ecommerce_dema
+      - ./pyproject.toml:/opt/dagster/app/pyproject.toml
+      - ./workspace.yaml:/opt/dagster/app/workspace.yaml
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+
+  dagster-daemon:
+    image: evelynn1107/dema_data_project:latest
+    env_file:
+      - dagster.env
+    depends_on:
+      - dagster-postgres
+    command: dagster-daemon run
+    volumes:
+      - ./dagster_home:/opt/dagster/dagster_home
+      - ./pyproject.toml:/opt/dagster/app/pyproject.toml
+      - ./workspace.yaml:/opt/dagster/app/workspace.yaml
+      - ./ecommerce_dema:/opt/dagster/app/ecommerce_dema
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+
+  dagster-postgres:
+    image: postgres:13.3
+    ports:
+      - 5432:5432
+    env_file:
+      - postgres.env
+    volumes:
+      - dagster-postgres-data:/var/lib/postgresql/data
+    restart: on-failure
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  pgadmin:
+    image: dpage/pgadmin4
+    ports:
+      - "5050:80"
+    env_file:
+      - pgadmin.env
+    depends_on:
+      - dagster-postgres
+    restart: on-failure
+    volumes:
+       - ./pg_config/servers.json:/pgadmin4/servers.json
+       - ./pg_config/pgpass:/pgpass
+
+volumes:
+  dagster-postgres-data:

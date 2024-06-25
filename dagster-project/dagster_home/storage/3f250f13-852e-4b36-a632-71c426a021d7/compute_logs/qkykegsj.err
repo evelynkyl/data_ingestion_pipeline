@@ -1,0 +1,8 @@
+2024-06-25 21:34:51 +0000 - dagster - DEBUG - data_ingestion_job - 3f250f13-852e-4b36-a632-71c426a021d7 - 768 - LOGS_CAPTURED - Started capturing logs in process (pid: 768).
+2024-06-25 21:34:51 +0000 - dagster - DEBUG - data_ingestion_job - 3f250f13-852e-4b36-a632-71c426a021d7 - 768 - inventory_data - STEP_START - Started execution of step "inventory_data".
+2024-06-25 21:34:51 +0000 - dagster - DEBUG - data_ingestion_job - 3f250f13-852e-4b36-a632-71c426a021d7 - 768 - inventory_data - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2024-06-25 21:34:51 +0000 - dagster - DEBUG - data_ingestion_job - 3f250f13-852e-4b36-a632-71c426a021d7 - 768 - inventory_data - ASSET_MATERIALIZATION - Materialized value inventory_data.
+2024-06-25 21:34:51 +0000 - dagster - DEBUG - data_ingestion_job - 3f250f13-852e-4b36-a632-71c426a021d7 - 768 - inventory_data - HANDLED_OUTPUT - Handled output "result" using IO manager "db_io_manager"
+2024-06-25 21:34:51 +0000 - dagster - DEBUG - data_ingestion_job - 3f250f13-852e-4b36-a632-71c426a021d7 - 768 - inventory_data - ASSET_CHECK_EVALUATION - ASSET_CHECK_EVALUATION for step inventory_data
+2024-06-25 21:34:51 +0000 - dagster - DEBUG - data_ingestion_job - 3f250f13-852e-4b36-a632-71c426a021d7 - 768 - inventory_data - STEP_OUTPUT - Yielded output "inventory_data_non_null" of type "Any". (Type check passed).
+2024-06-25 21:34:51 +0000 - dagster - DEBUG - data_ingestion_job - 3f250f13-852e-4b36-a632-71c426a021d7 - 768 - inventory_data - STEP_SUCCESS - Finished execution of step "inventory_data" in 569ms.

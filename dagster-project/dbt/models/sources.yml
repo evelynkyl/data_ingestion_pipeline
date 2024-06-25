@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: dagster_db
+    database: dagster
+    schema: public
+    tables:
+      - name: orders_data
+        meta:
+          dagster:
+            asset_key: ["orders_data"]
+      - name: inventory_data
+        meta:
+          dagster:
+            asset_key: ["inventory_data"]

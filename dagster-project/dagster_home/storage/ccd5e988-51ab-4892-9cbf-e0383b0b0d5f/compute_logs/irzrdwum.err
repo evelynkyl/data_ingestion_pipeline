@@ -1,0 +1,21 @@
+2024-06-24 23:58:28 +0000 - dagster - DEBUG - __ASSET_JOB_0 - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - 396 - LOGS_CAPTURED - Started capturing logs in process (pid: 396).
+2024-06-24 23:58:28 +0000 - dagster - DEBUG - __ASSET_JOB_0 - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - 396 - run_dbt_c7093 - STEP_START - Started execution of step "run_dbt_c7093".
+2024-06-24 23:58:28 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093 - Executing command: dbt --no-use-colors --log-format json build --project-dir /opt/dagster/app/ecommerce_dema/utils/../../dbt --profiles-dir /opt/dagster/app/ecommerce_dema/utils/../../dbt --select dema_dbt.order_inventory
+2024-06-24 23:58:30 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093 - Running with dbt=1.8.2
+2024-06-24 23:58:30 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093 - Registered adapter: postgres=1.8.2
+2024-06-24 23:58:30 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093 - Found 2 models, 2 sources, 415 macros
+2024-06-24 23:58:30 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093
+2024-06-24 23:58:30 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093 - Concurrency: 4 threads (target='prod')
+2024-06-24 23:58:30 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093
+2024-06-24 23:58:30 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093 - 1 of 1 START sql incremental model public.order_inventory ...................... [RUN]
+2024-06-24 23:58:30 +0000 - dagster - DEBUG - __ASSET_JOB_0 - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - 396 - run_dbt_c7093 - STEP_OUTPUT - Yielded output "model_dema_dbt_order_inventory" of type "Nothing". (Type check passed).
+2024-06-24 23:58:30 +0000 - dagster - DEBUG - __ASSET_JOB_0 - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - 396 - run_dbt_c7093 - ASSET_MATERIALIZATION - Materialized value order_inventory.
+2024-06-24 23:58:30 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093 - 1 of 1 OK created sql incremental model public.order_inventory ................. [SELECT 2858 in 0.11s]
+2024-06-24 23:58:30 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093
+2024-06-24 23:58:30 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093 - Finished running 1 incremental model in 0 hours 0 minutes and 0.25 seconds (0.25s).
+2024-06-24 23:58:30 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093
+2024-06-24 23:58:30 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093 - Completed successfully
+2024-06-24 23:58:30 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093
+2024-06-24 23:58:30 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093 - Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+2024-06-24 23:58:31 +0000 - dagster - INFO - resource:dbt - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - run_dbt_c7093 - dbt exited with return code 0
+2024-06-24 23:58:31 +0000 - dagster - DEBUG - __ASSET_JOB_0 - ccd5e988-51ab-4892-9cbf-e0383b0b0d5f - 396 - run_dbt_c7093 - STEP_SUCCESS - Finished execution of step "run_dbt_c7093" in 3.41s.
