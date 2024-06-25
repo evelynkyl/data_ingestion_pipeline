@@ -1,8 +1,0 @@
-2024-06-25 21:51:16 +0000 - dagster - DEBUG - data_ingestion_job - 730eb9a4-3b54-40ee-b691-0382455036a1 - 1089 - LOGS_CAPTURED - Started capturing logs in process (pid: 1089).
-2024-06-25 21:51:16 +0000 - dagster - DEBUG - data_ingestion_job - 730eb9a4-3b54-40ee-b691-0382455036a1 - 1089 - orders_data - STEP_START - Started execution of step "orders_data".
-2024-06-25 21:51:17 +0000 - dagster - DEBUG - data_ingestion_job - 730eb9a4-3b54-40ee-b691-0382455036a1 - 1089 - orders_data - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-2024-06-25 21:51:17 +0000 - dagster - DEBUG - data_ingestion_job - 730eb9a4-3b54-40ee-b691-0382455036a1 - 1089 - orders_data - ASSET_MATERIALIZATION - Materialized value orders_data.
-2024-06-25 21:51:17 +0000 - dagster - DEBUG - data_ingestion_job - 730eb9a4-3b54-40ee-b691-0382455036a1 - 1089 - orders_data - HANDLED_OUTPUT - Handled output "result" using IO manager "db_io_manager"
-2024-06-25 21:51:17 +0000 - dagster - DEBUG - data_ingestion_job - 730eb9a4-3b54-40ee-b691-0382455036a1 - 1089 - orders_data - ASSET_CHECK_EVALUATION - ASSET_CHECK_EVALUATION for step orders_data
-2024-06-25 21:51:17 +0000 - dagster - DEBUG - data_ingestion_job - 730eb9a4-3b54-40ee-b691-0382455036a1 - 1089 - orders_data - STEP_OUTPUT - Yielded output "orders_data_non_null" of type "Any". (Type check passed).
-2024-06-25 21:51:17 +0000 - dagster - DEBUG - data_ingestion_job - 730eb9a4-3b54-40ee-b691-0382455036a1 - 1089 - orders_data - STEP_SUCCESS - Finished execution of step "orders_data" in 871ms.

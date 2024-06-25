@@ -1,8 +1,0 @@
-2024-06-24 22:28:06 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 701 - LOGS_CAPTURED - Started capturing logs in process (pid: 701).
-2024-06-24 22:28:06 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 701 - orders_data - STEP_START - Started execution of step "orders_data".
-2024-06-24 22:28:07 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 701 - orders_data - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-2024-06-24 22:28:07 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 701 - orders_data - ASSET_MATERIALIZATION - Materialized value orders_data.
-2024-06-24 22:28:07 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 701 - orders_data - HANDLED_OUTPUT - Handled output "result" using IO manager "db_io_manager"
-2024-06-24 22:28:07 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 701 - orders_data - ASSET_CHECK_EVALUATION - ASSET_CHECK_EVALUATION for step orders_data
-2024-06-24 22:28:07 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 701 - orders_data - STEP_OUTPUT - Yielded output "orders_data_non_null" of type "Any". (Type check passed).
-2024-06-24 22:28:07 +0000 - dagster - DEBUG - __ASSET_JOB_0 - c4a5cb07-bd20-4f4c-a2d5-713e43769325 - 701 - orders_data - STEP_SUCCESS - Finished execution of step "orders_data" in 967ms.
