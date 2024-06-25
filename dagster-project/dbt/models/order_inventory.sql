@@ -21,5 +21,5 @@ FROM {{ source('dagster_db', 'orders_data') }} AS o
 JOIN {{ source('dagster_db', 'inventory_data') }} AS i
     ON o."productId" = i."productId"
 {% if is_incremental() %}
-    where o."dateTime" > (select max(o2."dateTime") from {{ this }} o2)
+    WHERE o."dateTime" > (SELECT MAX(o2."dateTime") FROM {{ this }} o2)
 {% endif %}
