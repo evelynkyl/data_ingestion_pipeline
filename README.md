@@ -40,9 +40,3 @@ Given additional time, the following improvements would be added:
 2. Writing additional data validation checks.
 3. Writing unit tests for DBT models.
 4. Integrating Clickhouse with Dagster for enhanced data warehousing capabilities.
-
-```bash
-docker build --network host -t dagster-app -f docker/Dockerfile .
-docker tag dagster-app evelynn1107/dema_data_project:latest
-docker push evelynn1107/dema_data_project:latest
-```
